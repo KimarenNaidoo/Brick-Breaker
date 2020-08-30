@@ -10,7 +10,11 @@ import javax.swing.Timer;
 
 public class Gameplay extends JPanel implements KeyListener, ActionListener {
 
-    private boolean play = false;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private boolean play = false;
     private int score = 0;
     private int totalBricks = 21;
     private Timer timer;
